@@ -7,14 +7,17 @@
 - Utiliza Cucumber para la definición de escenarios y la escritura de pruebas en lenguaje Gherkin.
 - Estructura modular con páginas de objetos, steps y utilidades para facilitar el mantenimiento y la escalabilidad.
 
+##Descripción:
+Prueba automatizada que permite ingresar a la url inicial de Previred, te permite iniciar sesión con un usuario válido, selecciona un Rol trabajador empresa, selecciona una empresa del usuario, modifica un dato y actualiza un valor del campo de los datos de la empresa (el nombre de la calle precisamente) y se valida que el cambio se haya hecho correctamente.
+
 ## Configuración del Proyecto
 
 ### Requisitos
 
 - Java JDK instalado
 - Maven configurado
-- Selenium WebDriver y WebDriverManager
-- Cucumber para Java
+- Selenium WebDriver y WebDriverManager (Viene en las dependencias)
+- Cucumber para Java (Viene en las dependencias)
 - IDE de desarrollo (Ej: IntelliJ IDEA, Eclipse)
 
 ### Instalación
